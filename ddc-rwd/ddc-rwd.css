@@ -1,0 +1,843 @@
+.clearfix{
+  overflow: auto;
+  zoom: 1;
+}
+*{
+  box-sizing: border-box;
+}
+.large{
+  display: none;
+}
+.largeClass{
+  display: none;
+}
+body, html{
+  margin: 0vw;
+  padding: 0vw;
+  width: 100%;
+}
+/*nav*/
+nav{
+  color: black;
+}
+.navBar ul{
+  margin: 0px;
+  list-style: none;
+  background: linear-gradient(rgb(255, 255, 255),rgba(34, 118, 115, .46), rgba(27, 20, 100, .46), rgb(255, 255, 255));
+}
+.navBar li{
+  display: inline-block;
+  margin-left: 0px;
+  margin-right: 5px;
+  padding: 5px;
+  font-size: 5vw;
+}
+li.first{
+  padding-left: 15px;
+}
+li.second{
+  padding-left: 10px;
+}
+li.third{
+  padding-left: 14vw;
+}
+.navBar a{
+  color: black;
+  text-decoration: none;
+}
+/*Home*/
+h2{
+  width: 18%;
+  font-family: 'Dancing Script', cursive;
+  float:left;
+  text-align: center;
+  font-size: 3.5vw;
+}
+.slogan{
+  position: relative;
+  top: -25vw;
+  left: 36vw;
+}
+.logo img{
+  width: 100%;
+}
+.twentysix img{
+  float: left;
+  padding: 0vw;
+  margin: 0vw;
+}
+.twentysev img{
+  float:left;
+  padding: 0vw;
+  margin: 0vw;
+}
+.links{
+  margin-left: 5vw;
+  margin-right: 5vw;
+  position: absolute;
+  top: 60vw;
+}
+.links a{
+  text-decoration: none;
+  color: white;
+}
+.links h1{
+  text-align: center;
+  font-size: 7vw;
+}
+.links > .jade {
+  clear: both;
+}
+.links > .classes {
+  padding-top: -10vw;
+}
+.jade{
+  box-sizing: content-box;
+  background-color: rgba(34, 118, 115, .46);
+  border-radius: 5vw;
+  margin-top: 2vw;
+}
+.navy{
+  clear: both
+  box-sizing: content-box;
+  background-color: rgba(27, 20, 100, .46);
+  border-radius: 5vw;
+  margin-top: 2vw;
+}
+/* Classes page */
+
+/*introduction*/
+.intro img{
+  margin-left: 5vw;
+}
+.intro p{
+  text-align: justify;
+  margin-left: 2vw;
+  margin-right: 2vw;
+}
+  /*Classes*/
+.classes {
+	width: 100%;
+	clear: left;
+}
+.courses {
+	width: 75%;
+	margin: 0 auto;
+}
+#nameClass h1 {
+	font-family: 'Ubuntu';
+	font-size: 6vw;
+  text-align: center;
+}
+#nameClass p {
+	font-size: 6vw;
+	line-height: 5vw;
+}
+#grow {
+  display:none;
+}
+#grow + .info {
+	max-height:20vw;
+	overflow:hidden;
+	transition: .5s ease;
+}
+#grow:checked + .info {
+	transition: .5s ease;
+	min-height:10vw;
+	max-height:inherit;
+}
+.classes label {
+  margin-left: 2vw;
+	color: white;
+	font-size: 10vw;
+	font-family: 'Ubuntu';
+	cursor:pointer;
+}
+.text {
+	color: black;
+	margin-top: 10vw;
+	padding-bottom: 10vw;
+	margin-bottom: 0px;
+}
+.inside {
+	padding-top: 5vw;
+  background-color: rgba(34, 118, 115, .46);
+  border-radius: 2vw;
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+}
+  /*Season*/
+.season {
+	width: 100%;
+	clear: left;
+}
+.thisSeason {
+	width: 75%;
+	margin: 0 auto;
+}
+#nameSeason h1 {
+	font-family: 'Ubuntu';
+	font-size: 6vw;
+  text-align: center;
+}
+#nameSeason p {
+	font-size: 6vw;
+	line-height: 5vw;
+}
+#growing {
+  display:none;
+}
+#growing + .information {
+	max-height:20vw;
+	overflow:hidden;
+	transition: .5s ease;
+}
+#growing:checked + .information {
+	transition: .5s ease;
+	min-height:inherit;
+	max-height:inherit;
+}
+.season label {
+  margin-left: 12vw;
+  color: white;
+	font-size: 10vw;
+	font-family: 'Ubuntu';
+  text-align: center;
+	cursor:pointer;
+}
+.type {
+	color: black;
+	margin-top: 10vw;
+	padding-bottom: 10vw;
+	margin-bottom: 0px;
+}
+table{
+  display: none;
+}
+.information {
+	padding-top: 5vw;
+  background-color: rgba(27, 20, 100, .46);
+  border-radius: 2vw;
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+}
+  /*Tuition and Costs*/
+.costs {
+	width: 100%;
+	clear: left;
+}
+.prices {
+	width: 75%;
+	margin: 0 auto;
+}
+#namePrice h1 {
+	font-family: 'Ubuntu';
+	font-size: 6vw;
+  text-align: center;
+}
+#namePrice p {
+	font-size: 6vw;
+	line-height: 5vw;
+}
+#grown {
+  display:none;
+}
+#grown + .inform {
+	max-height:20vw;
+	overflow:hidden;
+	transition: .5s ease;
+}
+#grown:checked + .inform {
+	transition: .5s ease;
+	min-height:10vw;
+	max-height:inherit;
+}
+.costs label {
+  margin-left: 2vw;
+  color: white;
+	font-size: 9vw;
+	font-family: 'Ubuntu';
+	cursor:pointer;
+}
+.tuition {
+	color: black;
+	margin-top: 10vw;
+	padding-bottom: 10vw;
+	margin-bottom: 0px;
+}
+.in {
+	padding-top: 5vw;
+  background-color: rgba(34, 118, 115, .46);
+  border-radius: 2vw;
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+}
+/*introduction*/
+.outro p{
+  text-align: justify;
+  margin-left: 2vw;
+  margin-right: 2vw;
+}
+/*instructors*/
+.kids img{
+  float:left;
+  margin-right:5vw;
+}
+.children img{
+  float: left;
+}
+.teachers p{
+  float:right;
+}
+.instructors h1{
+  font-family: 'Ubuntu';
+  color: black;
+  text-align: center;
+}
+.faces img{
+  width: 100%;
+}
+@media (min-width: 650px){
+  .mobile{
+    display:none;
+  }
+  .large{
+    display:inline-block;
+  }
+.clearfix{
+  overflow: auto;
+  zoom: 1;
+}
+  nav{
+    color: black;
+    width: 100%;
+    margin: 0px auto;
+    height: auto;
+    overflow: auto;
+  }
+  .navigation ul{
+    margin: 0px;
+    list-style: none;
+    width: auto;
+  }
+  .navigation li{
+    text-align: center;
+    display: inline-block;
+    margin-left: 2vw;
+    font-size: 2.5vw;
+  }
+  .navigation a{
+    color: black;
+    text-decoration: none;
+  }
+  /*home*/
+  h2{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    width: 50%;
+    margin-left: 25vw;
+  }
+  .head h2{
+    margin-top: 2vw;
+  }
+  .three > div{
+    float: left;
+    width: 30%;
+    margin-left: 1vw;
+    margin-right: 1vw;
+  }
+  .three > div > h2 {
+    margin-top: 0vw;
+    padding-top: 0vw;
+    margin-left: 0vw;
+    width: 100%;
+  }
+  .three #age{
+    margin-left: 3vw;
+  }
+  .three #easy{
+    margin-top: 4vw;
+  }
+
+  .swan img{
+    float:left;
+    width: 40%;
+  }
+  .swan p{
+    float: left;
+    width: 60%;
+    font-size: 25px;
+    margin-top: 0vw;
+    padding-top: 3vw;
+    padding-bottom: 32px;
+    padding-left: 1vw;
+  }
+  .swan > h2{
+    float:left;
+    width: 60%;
+    margin-left: auto;
+    margin-top: 0vw;
+    margin-bottom: 0vw;
+    padding-bottom: 3vw;
+  }
+  .largeClass{
+    display: block;
+  }
+  table{
+    display: block;
+  }
+  .largeClass label{
+    color: black;
+  }
+  .largeClass h1{
+    color: black;
+    font-family: 'Ubuntu'
+  }
+  /*intro*/
+  .intro img{
+    width: 25%;
+    float: right;
+    margin-right: 2vw;
+  }
+  .intro p{
+    font-size: 2vw;
+    margin-left: 2vw;
+  }
+  .intro p:first-letter{
+    font-size: 10vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    float: left;
+    font-family: 'Dancing Script';
+  }
+  /*classes*/
+  .text{
+    padding: 0px;
+  }
+  .classes label{
+    margin-left: 15vw;
+    margin-bottom: 0vh;
+  }
+  .stack{
+    margin-bottom: 2vh;
+  }
+  .stack > div {
+    height: 110%;
+  }
+  .stack > div > h1 {
+    font-size: 2vw;
+    height: 7vh;
+  }
+  .left{
+    margin-left: 4%;
+    margin-right: 2.5%;
+  }
+  .left img{
+    height: 15vh;
+    float: left;
+  }
+  .right img{
+    height: 15vh;
+    float: right;
+  }
+  .right{
+    margin-right: 2.5%;
+    text-align: right;
+  }
+  .right h1 p{
+    float: left;
+    display: inline-block;
+    width: 45%;
+  }
+  .green{
+    width: 45%;
+    display: inline-block;
+    background-color: rgba(34, 118, 115, .46);
+  }
+  .blue{
+    width: 45%;
+    display: inline-block;
+    background-color: rgba(27, 20, 100, .46);
+  }
+  .stack > div > h1 {
+    padding: 1vw;
+  }
+  .stack > div > img {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 2vh;
+  }
+  .stack > div > p {
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-top: 0px;
+  }
+  /*Season*/
+  .season label{
+    margin-left: 25vw;
+  }
+  table{
+    border-collapse: collapse;
+    display: inline-block;
+    margin-left: 5vw;
+    margin-right:5vw;
+  }
+  td{
+    padding: 1vw;
+  }
+  table th{
+    background-color: rgba(27, 20, 100, .46);
+    color: white;
+  }
+  td.time{
+  background-color: rgba(34, 118, 115, .46);
+  color: white;
+  }
+  th.blank{
+    background-color: white;
+  }
+  .type{
+    padding-bottom: 2vh;
+  }
+  /*tuition*/
+  .costs {
+    width: 100%;
+  }
+  .costs label{
+    margin-left: 14vw;
+  }
+  .prices{
+    box-sizing: border-box;
+    border: 1px solid black;
+    width: 90%;
+  }
+  .prices h1 {
+    text-align: center;
+    margin: 1vw;
+    font-size: 5vw;
+  }
+  .tuitionRates ul{
+    width: 45%;
+    float: left;
+  }
+  .tuitionDetails p{
+    width: 45%;
+    float: right;
+  }
+  .otherCosts h1{
+    text-align: center;
+  }
+  .otherCosts{
+    box-sizing: border-box;
+    border-bottom: 2px solid lightgrey;
+  }
+  .outro p{
+    margin-bottom: 3vw;
+  }
+  /*instructors*/
+  .largeStaff{
+    display: block;
+  }
+  .largeStaff label{
+    width: 100%;
+    text-align: center;
+    font-family: 'Ubuntu';
+    font-size: 7vw;
+    margin-left: 27%;
+  }
+  .jadeBox{
+    width: 40%;
+  }
+  .navyBox{
+    width: 40%;
+  }
+  .leftSide{
+    float: left;
+  }
+  .leftSide img{
+    float: left;
+  }
+  .rightSide{
+    float: right;
+  }
+  .rightSide img{
+    float: right;
+  }
+  .faces img{
+    height: 25vh;
+    width: auto;
+    margin-left: 2vw;
+    margin-top: 2vw;
+    margin-right: 2vw;
+  }
+  .stackBox{
+    width: 95%;
+    margin-bottom: 2vh;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    height: 66vh;
+  }
+  .faces p{
+    padding: 2vw;
+  }
+  .stackBox > div {
+    vertical-align: top;
+  }
+  .jadeBox{
+    width: 49%;
+    display: inline-block;
+    background-color: rgba(34, 118, 115, .46);
+    height: 100%;
+  }
+  .navyBox{
+    width: 49%;
+    display: inline-block;
+    background-color: rgba(27, 20, 100, .46);
+    height: 100%;
+  }
+}
+
+@media (min-width: 950px){
+  /* home */
+  .large{
+    display: none;
+  }
+  * {box-sizing:border-box}
+
+  .slideshow-container {
+    width: 100%;
+    position: relative;
+    margin: auto;
+    background: linear-gradient(rgb(255, 255, 255),rgb(34, 181, 115), rgb(27, 20, 100),rgb(255, 255, 255));
+  }
+  .mySlides {
+      display: none;
+  }
+  .mySlides img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+  }
+  .next {
+    right: 0vw;
+    border-radius: 3px 0 0 3px;
+  }
+  .numbertext {
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #888888;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  .active, .dot:hover {
+    background-color: #afafaf;
+  }
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  .two > div{
+    float: left;
+    width: 30%;
+    margin-left: 1vw;
+    margin-right: 1vw;
+  }
+  .two > div > h2 {
+    margin: 0vw;
+    width: 100%;
+  }
+  #pushLeft{
+    margin-left:3vw;
+  }
+  #pushRight{
+    margin-right:3vw;
+  }
+  #pushMoreLeft{
+    margin-bottom: 2vw;
+    margin-left: 4vw;
+  }
+  #pushLessRight{
+    margin-bottom: 2vw;
+    margin-right: 0vw;
+  }
+  .two #first{
+    margin-left: 3vw;
+  }
+  .two #second{
+    margin-left: 2vw;
+  }
+  .two #third{
+    margin-right: 0vw;
+  }
+  #second h2{
+    margin-bottom: 2vw;
+    margin-left: 0vw;
+  }
+  /*classes*/
+  .stack > div{
+    height: 60%;
+  }
+  .green p{
+    font-size: 3.5vh;
+    padding: 0vh;
+    margin: 0vh;
+  }
+  .blue p{
+    font-size: 3.5vh;
+    padding: 0vh;
+    margin: 0vh;
+  }
+  .blue img{
+    height: 20vh;
+  }
+  .green img{
+    height: 20vh;
+  }
+  .costs{
+    font-size: 2vw;
+  }
+  .outro{
+    font-size: 2.5vw;
+  }
+  /*staff */
+  .largeStaff{
+    display: none;
+  }
+  .top{
+    width: 100%;
+    margin: 0vw;
+  }
+  .top  > .picture{
+    display: inline-block;
+    width: 40%;
+    margin-left: 5vw;
+    margin-right: 4vw;
+  }
+  /* #hillary{
+    margin-left: 4vw; */
+  }
+  .middle  > .picture{
+    display: inline-block;
+    width: 30%;
+    margin-left: 2.5vw;
+    margin-right: 0vw;
+  }
+  .middle{
+    width: 100%;
+    margin: 0vw;
+  }
+  .bottom  > .picture{
+    display: inline-block;
+    width: 30%;
+    margin-top: 2vw;
+    margin-left: 2.5vw;
+    margin-right: 0vw;
+  }
+  .bottom{
+    width: 100%;
+    margin: 0vw;
+  }
+  .picture {
+    position: relative;
+    width: 50%;
+  }
+
+  .avatar {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .greenCenter {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(34, 118, 115, .46);
+  }
+  .blueCenter {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(27, 20, 100, .46);
+  }
+  .picture:hover .blueCenter {
+    opacity: 1;
+  }
+  .picture:hover .greenCenter {
+    opacity: 1;
+  }
+  .blueCenter p{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 0vw;
+    margin: 0;
+    color: white;
+    font-size: 1.75vw;
+    width: 100%;
+  }
+  .greenCenter p{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 0vw;
+    margin: 0;
+    color: white;
+    font-size: 1.75vw;
+    width: 100%;
+  }
+}

@@ -1,0 +1,29 @@
+nav{
+  color: black;
+  background-color: ;
+}
+.navBar ul{
+  margin: 0px;
+  list-style: none;
+  background: linear-gradient(rgba(34, 118, 115, .46), rgba(27, 20, 100, .46), rgb(255, 255, 255));
+}
+.navBar li{
+  text-align: center;
+  display: inline-block;
+  margin-left: 0px;
+  margin-right: 5px;
+  padding: 5px;
+  font-size: 5vw;
+}
+li.first{
+  padding-left: 15px;
+}
+li.second{
+  padding-left: 5px;
+}
+li.third{
+  padding-left: 27vw;
+}
+.navBar a{
+  color: black;
+}
