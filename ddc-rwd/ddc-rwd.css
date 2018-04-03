@@ -11,6 +11,9 @@
 .largeClass{
   display: none;
 }
+.largest{
+  display: none;
+}
 body, html{
   margin: 0vw;
   padding: 0vw;
@@ -602,6 +605,9 @@ table{
   .large{
     display: none;
   }
+  .largest{
+    display:block;
+  }
   * {box-sizing:border-box}
 
   .slideshow-container {
@@ -735,6 +741,9 @@ table{
   /*staff */
   .largeStaff{
     display: none;
+  }
+  .largestStaff{
+    display: block;
   }
   .top{
     width: 100%;
