@@ -5,7 +5,7 @@
 *{
   box-sizing: border-box;
 }
-.mobile(
+.mobile{
 overflow-x: hidden;
 }
 .large{
