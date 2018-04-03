@@ -5,6 +5,9 @@
 *{
   box-sizing: border-box;
 }
+.mobile(
+overflow-x: hidden;
+}
 .large{
   display: none;
 }
